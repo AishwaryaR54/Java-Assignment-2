@@ -2,8 +2,7 @@ public class ArrayException {
     public static void main(String[] args) {
         int arr[]= new int[4];
         int i;
-        try
-        {
+        try {
             for(i=0;i<=4;i++)
             {
                 arr[i]=i+1;
