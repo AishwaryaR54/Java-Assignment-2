@@ -13,7 +13,7 @@ public class ExceptionMethods {
     static void method1() throws CustomException {
         try {
             method2();
-        }
+            }
         catch (NullPointerException e)
         {
             throw new CustomException();
