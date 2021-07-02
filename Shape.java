@@ -21,7 +21,7 @@ public class Shape {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the length: ");
+        System.out.println("Enter the length of a shape: ");
         Shape s = new Shape();
         s.length = sc.nextInt();
         System.out.println("Enter the width: ");
